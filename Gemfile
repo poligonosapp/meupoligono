@@ -5,6 +5,8 @@ ruby '3.0.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.1.0'
+#rack
+gem 'rack', '1.6.2'
 # webpacker
 # gem 'webpacker', '~> 6.x'
 # Use sqlite3 as the database for Active Record
