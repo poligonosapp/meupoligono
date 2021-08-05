@@ -1,12 +1,14 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.0.2'
+ruby '2.7.2'
+# ruby '3.0.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.1.0'
 #rack
-gem 'rack', '1.6.2'
+gem 'rack', ' ~>= 2.0.9'
+# gem 'rack', '1.6.2'
 # webpacker
 # gem 'webpacker', '~> 6.x'
 # Use sqlite3 as the database for Active Record
@@ -56,4 +58,5 @@ group :test do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# gem 'tzinfo', '~> 1.2', '>= 1.2.2'
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
