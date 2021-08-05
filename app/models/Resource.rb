@@ -1,6 +1,7 @@
 # https://www.infoq.com/articles/rest-introduction/
 # https://guides.rubyonrails.org/active_record_postgresql.html#geometric-types
-#
+
+require 'tzinfo'
 
 require "open-uri"
 require "json"
