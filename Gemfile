@@ -7,7 +7,8 @@ ruby '2.7.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.1.0'
 #rack
-gem 'rack', ' ~>= 2.0.9'
+gem 'rack', '~> 1.6', '>= 1.6.4'
+# gem 'rack', ' ~>= 2.0.9'
 # gem 'rack', '1.6.2'
 # webpacker
 # gem 'webpacker', '~> 6.x'
