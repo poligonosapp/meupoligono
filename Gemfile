@@ -14,7 +14,7 @@ gem 'webdrivers', '~> 4.6'
 # webpacker
 # gem 'webpacker', '~> 6.x'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.4'
+gem 'sqlite3', '~> 1.4.0'
 # Use Puma as the app server
 gem "puma", ">= 5.3.1"
 # Use SCSS for stylesheets
@@ -56,5 +56,5 @@ group :test do
   gem 'capybara', '>= 3.26'
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
-  gem 'webdrivers', '~> 4.6'
+  # gem 'webdrivers', '~> 4.6'
 end
