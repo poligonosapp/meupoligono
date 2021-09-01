@@ -15,6 +15,7 @@ gem 'webdrivers', '~> 4.6'
 # gem 'webpacker', '~> 6.x'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3', '~> 1.4.0'
+gem 'mongoid', '~> 7.0.5'
 gem 'sqlite3', '~> 1.3.13'
 # Use Puma as the app server
 gem "puma", ">= 5.3.1"
