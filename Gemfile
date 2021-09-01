@@ -8,7 +8,7 @@ ruby '2.7.2'
 gem 'rails', '~> 6.1.0'
 gem 'webdrivers', '~> 4.6'
 # nginx replacement no heroku support rack::Sendfile
-# gem 'rack', '~> 1.6', '>= 1.6.4'
+# gem 'rack', '~> 1.6', '>= 1.6.4', '2.2.3'
 # gem 'rack', ' ~>= 2.0.9'
 # gem 'rack', '1.6.2'
 # webpacker
